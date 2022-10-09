@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		B2599C2B28E8D29200E99203 /* checkInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C2A28E8D29200E99203 /* checkInApp.swift */; };
-		B2599C2D28E8D29200E99203 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C2C28E8D29200E99203 /* ContentView.swift */; };
+		B2599C2D28E8D29200E99203 /* CovidDeclarationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C2C28E8D29200E99203 /* CovidDeclarationContentView.swift */; };
 		B2599C2F28E8D29800E99203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2599C2E28E8D29800E99203 /* Assets.xcassets */; };
 		B2599C3228E8D29800E99203 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2599C3128E8D29800E99203 /* Preview Assets.xcassets */; };
+		B2599C3928E9E8F400E99203 /* CheckInAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C3828E9E8F400E99203 /* CheckInAppModel.swift */; };
+		B2599C3B28E9EA1B00E99203 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C3A28E9EA1B00E99203 /* ViewModel.swift */; };
+		B2599C3D28EA16AE00E99203 /* SetUpContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C3C28EA16AD00E99203 /* SetUpContentView.swift */; };
+		B2599C4128EA392400E99203 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2599C4028EA392400E99203 /* Patient.swift */; };
+		B2D1947628EA4C500084431B /* NoOhipContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1947528EA4C4F0084431B /* NoOhipContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2599C2728E8D29200E99203 /* checkIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2599C2A28E8D29200E99203 /* checkInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkInApp.swift; sourceTree = "<group>"; };
-		B2599C2C28E8D29200E99203 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2599C2C28E8D29200E99203 /* CovidDeclarationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDeclarationContentView.swift; sourceTree = "<group>"; };
 		B2599C2E28E8D29800E99203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2599C3128E8D29800E99203 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2599C3828E9E8F400E99203 /* CheckInAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInAppModel.swift; sourceTree = "<group>"; };
+		B2599C3A28E9EA1B00E99203 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B2599C3C28EA16AD00E99203 /* SetUpContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpContentView.swift; sourceTree = "<group>"; };
+		B2599C4028EA392400E99203 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		B2D1947528EA4C4F0084431B /* NoOhipContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoOhipContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				B2599C2A28E8D29200E99203 /* checkInApp.swift */,
-				B2599C2C28E8D29200E99203 /* ContentView.swift */,
+				B2599C2C28E8D29200E99203 /* CovidDeclarationContentView.swift */,
 				B2599C2E28E8D29800E99203 /* Assets.xcassets */,
 				B2599C3028E8D29800E99203 /* Preview Content */,
+				B2599C3828E9E8F400E99203 /* CheckInAppModel.swift */,
+				B2599C3A28E9EA1B00E99203 /* ViewModel.swift */,
+				B2599C3C28EA16AD00E99203 /* SetUpContentView.swift */,
+				B2599C4028EA392400E99203 /* Patient.swift */,
+				B2D1947528EA4C4F0084431B /* NoOhipContentView.swift */,
 			);
 			path = checkIn;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2599C2D28E8D29200E99203 /* ContentView.swift in Sources */,
+				B2599C2D28E8D29200E99203 /* CovidDeclarationContentView.swift in Sources */,
 				B2599C2B28E8D29200E99203 /* checkInApp.swift in Sources */,
+				B2599C3B28E9EA1B00E99203 /* ViewModel.swift in Sources */,
+				B2599C3D28EA16AE00E99203 /* SetUpContentView.swift in Sources */,
+				B2599C3928E9E8F400E99203 /* CheckInAppModel.swift in Sources */,
+				B2599C4128EA392400E99203 /* Patient.swift in Sources */,
+				B2D1947628EA4C500084431B /* NoOhipContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
