@@ -5,26 +5,23 @@
 //  Created by Alex Yeh on 2022-10-02.
 //
 
+import SwiftUI
 import Foundation
 
 class CheckInAppModel {
-    init(clinicHashKey: String) {
-    }
     
-    var pateint  = Patient()
+    var patient  = Patient()
     
-    func getAPIKey(hashKey: String) -> String? {
-        //Connect to AWS
-        return nil
-    }
-    
+    //  ohip -> get demographic
     func getPatientWithOHIP(ohip: String) -> Patient {
         return Patient()
     }
     
-    func getPatientWithName(firstName: String, lastName: String, dateOfBirth: String) -> Patient {
+    //  name + dob -> get demographic
+    func getPatientWithName(name: String, dateOfBirth: String) -> Patient {
         return Patient()
     }
+    
     
     func updatePatient(old: Patient, new: Patient) -> Bool {
         return true
@@ -34,4 +31,8 @@ class CheckInAppModel {
         return true
     }
     
+    func resetPatient() {
+        self.patient = Patient()
+    }
 }
+
